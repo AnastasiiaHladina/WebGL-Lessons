@@ -1,0 +1,100 @@
+body {
+     margin: 0;
+     background-color: white;
+}
+canvas {
+	margin-top: 1vh;
+	display: block; 
+/*	width: 82vw;*/
+	width: 67vw;
+	height: 90vh;
+}
+.menu{ 
+	margin-top: -47%;
+	z-index: 10;
+}
+.strong{
+	color: #1b00ce;
+} 
+.view{
+	width: 90%;
+	margin-left: 2%;
+}
+
+.navbar{
+	padding: 0;
+/*	
+ для прокрутки блока с уроками
+	height: 620px;
+	overflow: auto;
+*/
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color:rgba(0, 0, 0, 0.8)!important;
+}
+a{
+	cursor: pointer;
+}
+select{
+	width: 100%;
+}
+.form-check-input{
+	margin-left: 1rem;
+}
+.form-check-input + label {
+	margin-left: 2.2em;
+}
+.img-button{
+	width: 60px;
+ 	height: 60px;
+	overflow: hidden; 
+	padding: 0;
+	background-color: #f7f7f9;
+	border:1px solid rgba(0,0,0,.125);
+}
+.img-button:active{ 
+	background-color: #3709ef;
+}
+.img-button:hover{
+	cursor:pointer;	
+}
+.img-button:focus{ 
+	background-color: #00b7ff;
+}
+.img-button>img{
+	width: 50px;
+ 	height: 50px;
+} 
+
+.disabled { 
+    background-color: #bdbfc2;
+    border:1px solid #2a2c2d;
+}
+.light{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;	
+	width: 80%; 
+}
+.spanLight{
+	width: 8%; 
+	margin-left: 2%; 
+	margin-top: -22%;  
+	position: absolute;
+}
+.bg{
+	background-color: #60b5ff;
+}
+.gman-widget-slider{
+	width: 100%;
+}
+/*
+.btn-primary:hover {
+	color: #fff;
+	background-color: #77f0d3;
+	border-color: #019b53;
+}
+*/
+#canvasDiv>div{
+}
